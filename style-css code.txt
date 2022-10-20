@@ -1,0 +1,42 @@
+.nav{
+	height:20px;
+	width:100%;
+	background-color:#ff6600;
+}
+.header{
+	height:130px;
+	width:100%;
+	background-color:#66ff66;
+}	
+.side{
+	height:90px;
+	width:50%;
+	background-color:#ffff33;
+}	
+	
+h1{
+	color:#66ccff;
+	margin-left:20px;
+	height:40px;
+}
+h2{
+    color:#ff66cc;
+    margin-left:20px;
+    height:40px;
+}
+body{
+    background-image:url("beach.jpg");
+	
+    background-repeat: repeat-round;
+}
+.main{
+	height:400px;
+	width:60%;
+	background-color:#ff4d4d;
+}
+.footer{
+	height:15px;
+	width:100%;
+	background-color:#3333ff;
+}
+	
