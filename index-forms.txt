@@ -1,0 +1,61 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+    <title>Forms website</title>
+    <link rel="stylesheet" href="forms-style.css">
+    </head>
+    <body>
+    <h1> Forms</h1>
+    <form action="mailto:x22120360@student.ncirl.ie" method="post">
+	    <label> Name:  </label>
+		<input type="text" name="name" required >
+		<br></br>
+		<label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname">
+		<br><br>
+		<label> Enter Passoword:</label>
+		<input type="password"   />
+		<br></br>
+		<label> Phone number:</label>
+		<input type="number" />
+		<br></br>
+		<p> Radio button options for toppings</p>
+            <label>Ketchup</label>
+            <input name="toppings" type="radio" value="Ketchup" />
+            <br>
+            <label>Mustard</label>
+            <input name="toppings" type="radio" value="Mustard" />
+            <br>
+            <label>Onions</label>
+            <input name="toppings" type="radio" value="Onions" />
+			
+		   <p>Checkboxes for the toppings</p>
+		   <label> Ketchup</label>
+		   <input type="checkbox" name="toppings" value="ketchup" checked="checked">
+		   <label>Onions</label>
+		   <input type="checkbox" name="toppings" value="onions" />
+		   <label>Mustard</label>
+		   <input type="checkbox" name="toppings" value="mustard" />
+		   <br></br>
+		   <label>Drop down toppings</label>
+            <select name="toppings">
+                <option>Ketchup</option>
+                <option>Mustard</option>
+                <option>Onions</option>
+            </select>
+			
+		<br></br>
+		
+		
+		<input type="submit" value="Submit your form">
+		<label>Comments</label>
+        <br/>
+		<input type="reset" value="reset"/>
+        <textarea name = “comments” rows=“4” cols=“36”>
+        Comments here
+        </textarea>
+        
+	</form>
+</body>
+
+</html>
