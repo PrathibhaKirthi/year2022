@@ -1,50 +1,33 @@
 <!DOCTYPE>
-<html lang="en">
-<head>
-    <title> Website</title>
-    <link rel="stylesheet" href="style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Dancing+Script&family=Lobster&family=Noto+Sans+Mono:wght@200&display=swap" rel="stylesheet">
-	</head>
-	<body>
-	<div class="nav">
-	<!-- anchor tag-->
-	 <a class="menu_item" href="#">Home</a>
-     <a class="menu_item" href="#">About Us</a>
-     <a class="menu_item" href="#">Gallery</a>
-     <a class="menu_item" href="#">Contact</a>
-	</div>
-	
-	<div class="header">
-	<!-- heading-->
-	<h1>Welcome to Maldives</h1>
-	<h2> Beaches and Sunsets </h2>
-	</div>
-	
-	<div class="side">
-	<!-- a text about the website -->
-	<p>This is a website about a resort in maldives. This place is great for vacation and a  great site to the eyes. The blue waters and the sand between your toes is the perfect way to relax.The mesmerising sunsets and the multi-cuisines are to die for!
-	</p>
-	</div>
-	
-	<div class="main">
-	<!-- dummy text-->
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-	  <p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-	  <p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-	</div>
-	 
-	<div class="footer">
-	<!-- background color-->
-	<p> Please do visit and for more information do feel free to contact us </p>
-	</div>
-	</body>
-	
-</html>	
+<html>
+   <head>  
+    <title>Java Script Webpage</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript">
+	    var grade;
+		grade = parseInt(prompt("what is the grade you recieved ?"));
+		if(grade<=39){
+		  //fail
+		  //The student has failed and that message will be displayed
+		  document.write("You have failed");
+		  }else if((grade<=50) && (grade=>40)){
+         //pass
+		 //The student has passed and that message will be displayed 
+		 document.write("You have passed");
+          }	
+        else if	((grade<=74) && (grade=>55)) {
+         //merit
+		 //The student has passed with merit and that message will be displayed 
+		 document.write("You have got merit");
+          }
+		else{
+         //distinction	
+		 //The student has passed with distinction and that message will be displayed 
+		 document.write("You have got distinction");
+		 }
+        		 
+		</script>
+        </head>
+        </html>		
+		
+		
