@@ -1,33 +1,80 @@
-<!DOCTYPE>
-<html>
-   <head>  
-    <title>Java Script Webpage</title>
-	<link rel="stylesheet" href="style.css">
-	<script type="text/javascript">
-	    var grade;
-		grade = parseInt(prompt("what is the grade you recieved ?"));
-		if(grade<=39){
-		  //fail
-		  //The student has failed and that message will be displayed
-		  document.write("You have failed");
-		  }else if((grade<=50) && (grade=>40)){
-         //pass
-		 //The student has passed and that message will be displayed 
-		 document.write("You have passed");
-          }	
-        else if	((grade<=74) && (grade=>55)) {
-         //merit
-		 //The student has passed with merit and that message will be displayed 
-		 document.write("You have got merit");
-          }
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>JavaScript Webpage</title>
+	  <link rel="stylesheet" href="style.css">
+	  <!-- add the link tag to the style.css which will be in a folder -->
+	  <!-- used to embed client side script/JS -->
+	  <script type="text/javascript">
+		//comment in JS
+		//add 3 examples of javascript
+		
+		var name;
+		name= parseInt(prompt("Enter your Name"));
+		// ask the user to enter name 
+		var age;
+		age= parseInt(prompt("Enter your age"));
+		// to ask the user their age 
+		
+	    if(age<16){
+		  document.write("\nYou are not eligible to vote")
+		  }
+		  //This is to check if user is eligible to vote and the message will be displayed 
+		  
+		else if(age>16 && age<40){
+		    document.write("\nYou are eligible to vote!");
+			}
+			// This is to check if user is aged between 17 and 40 and the message will be displayed 
+        else if(age>41 && age<90){
+             document.write("\nYou are eligible for early voting");
+            }
+          //This is to check if user is ages between 41 and 90 and the message will be displayed
+        else{
+            document.write("\nerror in syntax");
+            }
+          //This is when the user enters an invalid entry
+
+        function calPerimeter(length, width){
+          var perimeter = 2 *(length+=width);
+        return perimeter;
+		}
+		//This function is for calculating the perimeter of a rectangle 
+	    var rect = calPerimeter(5, 9);
+		document.write("\nperimeter of rectangle" +rect);
+		//This will display the perimeter 
+		  
+		var steps;
+		steps= parseInt(prompt("\nenter the number of steps done today;"));
+		
+		if(steps<3000){
+		document.write("\nNot enough steps");
+		}
+		//if user enters 3000 then the above message will be displayed 
+		
+		else if (steps>3001 && steps<6000){
+		document.write(prompt("\nGood job! keep it going"));
+		}
+		//if user enters any number between range specified then the above message will be displayed
+		
+		else if(steps>6001 && steps<9000){
+		document.write(prompt("\nexcellent!"));
+		}
+		//If user enters any number between range specified then the above message will be displayed
 		else{
-         //distinction	
-		 //The student has passed with distinction and that message will be displayed 
-		 document.write("You have got distinction");
-		 }
-        		 
-		</script>
-        </head>
-        </html>		
+		document.write("\nYou are  great at this");
+		}
 		
-		
+		 
+
+
+	  </script>
+
+	</head>
+	<body>
+		<h1>Graded lab exercise</h1>
+		<p>add 3 examples of javascript</p>
+		<p>create a repo in github and add your project when finished</p>
+		<p>post just the link to the github repo in OneNote</p>
+		<p>you link should look like this https://github/username/repoName.git </p>
+	</body>
+</html>
